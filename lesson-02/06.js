@@ -10,4 +10,4 @@ let passportWithAddress = {
 let passportWithAddress2={...passportWithAddress,address:{...passportWithAddress.address}}
 passportWithAddress2.address.city="Bobryisk"
 
-console.log(passportWithAddress2)
+console.log(passportWithAddress2.address.city)
