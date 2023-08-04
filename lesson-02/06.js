@@ -6,6 +6,7 @@ let passportWithAddress = {
         city: "LA"
     }
 };
+console.log(passportWithAddress.address.city)
 
 let passportWithAddress2={...passportWithAddress,address:{...passportWithAddress.address}}
 passportWithAddress2.address.city="Bobryisk";
