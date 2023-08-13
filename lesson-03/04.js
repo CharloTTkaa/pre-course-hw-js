@@ -60,9 +60,8 @@ const users = [
         address: '753 Cherry St'
     }
 ];
-
-for (let i = 0; i < users.length; i++) {
-if (users[i].id % 2 === 0) {
-console.log(users[i]);
-}
-}
+users.forEach(user => {
+    if (user.id % 2 === 0) {
+    console.log(user);
+    }
+    });
