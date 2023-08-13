@@ -60,5 +60,5 @@ const users = [
         address: '753 Cherry St'
     }
 ];
-const users2 = users.filter(users => users.id % 2 === 0);
-console.log(users2);
+const users1 = users.filter(users => users.id % 2 === 0);
+console.log(users1);
