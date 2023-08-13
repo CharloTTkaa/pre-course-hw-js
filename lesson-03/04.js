@@ -60,8 +60,5 @@ const users = [
         address: '753 Cherry St'
     }
 ];
-users.forEach(user => {
-    if (user.id % 2 === 0) {
-    console.log(user);
-    }
-    });
+const users2 = users.filter(users => users.id % 2 === 0);
+console.log(users2);
